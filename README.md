@@ -21,6 +21,10 @@ Move project to production mode with: <b>npm run build</b><br/>
     babel-preset-stage-2<br/>
 <h4>Note: Every package used is latest version expect for babel-loader which is 7.1.5</h4><br/>
 <h3>Files naming explanation:</h3><br/>
+.babelrc - Babel config file<br/>
+  nodemon.json - Nodemon config file<br/>
+  package.json and package-lock.json - Packages config files<br/>
+  webpack.config.js - Webpack config file<br/>
   ./src Main folder with every .js file inside:<br/>
     app.js - Used to initialize app using express and call router for navigation<br/>
     config.js - Holds ports numbers<br/>
@@ -35,7 +39,3 @@ Move project to production mode with: <b>npm run build</b><br/>
       course.router.js - Router made for courses collections<br/>
       student.router.js - Router made for students collections<br/>
       index.js - Default router file that imports all the routers, call them and exports them to index.js<br/>
-  .babelrc - Babel config file<br/>
-  nodemon.json - Nodemon config file<br/>
-  package.json and package-lock.json - Packages config files<br/>
-  webpack.config.js - Webpack config file<br/>
