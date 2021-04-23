@@ -21,21 +21,22 @@ Move project to production mode with: <b>npm run build</b><br/>
     babel-preset-stage-2<br/>
 <h4>Note: Every package used is latest version expect for babel-loader which is 7.1.5</h4><br/>
 <h3>Files naming explanation:</h3><br/>
-.babelrc - Babel config file<br/>
-nodemon.json - Nodemon config file<br/>
-package.json and package-lock.json - Packages config files<br/>
-webpack.config.js - Webpack config file<br/><br/>
-./src Main folder with every .js file inside:<br/>
-app.js - Used to initialize app using express and call router for navigation<br/>
-config.js - Holds ports numbers<br/>
-index.js - Main file of the application <br/><br/>
-./src/controllers Holds controllers:<br/>
-courses.controller.js - File that holds API-s(list, create, update, read, delete) for course collection<br/>
-students.controller.js - File that holds API-s(list, create, update, read, delete) for students collection<br/><br/>
-./src/models Holds models:<br/>
-course.model.js - Model used for courses collection<br/>
-student.model.js - Model used for students collection<br/><br/>
-./src/router Holds routers:<br/>
-course.router.js - Router made for courses collections<br/>
-student.router.js - Router made for students collections<br/>
-index.js - Default router file that imports all the routers, call them and exports them to index.js<br/>
+<b>.babelrc</b> - Babel config file<br/>
+<b>nodemon.json</b> - Nodemon config file<br/>
+</b>package.json</b> and <b>package-lock.json</b> - Packages config files<br/>
+<b>webpack.config.js</b> - Webpack config file<br/><br/>
+<b>./src</b> Main folder with every .js file inside:<br/>
+<b>app.js</b> - Used to initialize app using express and call router for navigation<br/>
+<b>config.js</b> - Holds ports numbers<br/>
+<b>index.js</b> - Main file of the application <br/><br/>
+<b>./src/controllers</b> Holds controllers:<br/>
+<b>courses.controller.js</b> - File that holds API-s(list, create, update, read, delete) for course collection<br/>
+<b>students.controller.js</b> - File that holds API-s(list, create, update, read, delete) for students collection<br/><br/>
+<b>./src/models</b> Holds models:<br/>
+<b>course.model.js</b> - Model used for courses collection<br/>
+<b>student.model.js</b> - Model used for students collection<br/><br/>
+<b>./src/router</b> Holds routers:<br/>
+<b>course.router.js</b> - Router made for courses collections<br/>
+<b>student.router.js</b> - Router made for students collections<br/>
+<b>index.js</b> - Default router file that imports all the routers, call them and exports them to index.js<br/>
+<h3>Enjoy!</h3>
