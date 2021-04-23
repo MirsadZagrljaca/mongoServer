@@ -23,7 +23,7 @@ Move project to production mode with: <b>npm run build</b><br/>
 <h3>File names:</h3><br/>
 <b>.babelrc</b> - Babel config file<br/>
 <b>nodemon.json</b> - Nodemon config file<br/>
-</b>package.json</b> and <b>package-lock.json</b> - Packages config files<br/>
+<b>package.json</b> and <b>package-lock.json</b> - Packages config files<br/>
 <b>webpack.config.js</b> - Webpack config file<br/><br/>
 <b>./src</b> Main folder with every .js file inside:<br/>
 <b>app.js</b> - Used to initialize app using express and call router for navigation<br/>
